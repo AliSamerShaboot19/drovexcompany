@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- ── Core SEO ──────────────────────────────────────────────────────
+         SITE_URL below is a placeholder (https://drovex.com). Once the
+         real domain is bought, find-and-replace SITE_URL across this file
+         (and public/robots.txt, public/sitemap.xml) with it. -->
+    <title>drovex — Web, Desktop &amp; Automation Engineering</title>
+    <meta
+      name="description"
+      content="drovex is an engineering team building enterprise web platforms, native desktop software and Telegram automation. Bilingual, Arabic &amp; English."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://SITE_URL/" />
+
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Telegram previews) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="drovex" />
+    <meta property="og:title" content="drovex — Web, Desktop & Automation Engineering" />
+    <meta
+      property="og:description"
+      content="An engineering team building enterprise web platforms, native desktop software and Telegram automation."
+    />
+    <meta property="og:url" content="https://SITE_URL/" />
+    <meta property="og:image" content="https://SITE_URL/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ar_AR" />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="drovex — Web, Desktop & Automation Engineering" />
+    <meta
+      name="twitter:description"
+      content="An engineering team building enterprise web platforms, native desktop software and Telegram automation."
+    />
+    <meta name="twitter:image" content="https://SITE_URL/og-image.jpg" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Above-the-fold: the navbar logo and the preloader's fallback image. -->
+    <link rel="preload" as="image" href="/logo-light-sm.jpg" />
+    <link rel="preload" as="image" href="/logo-light.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured data: tells Google this is an Organization, for the
+         knowledge-panel-style rich results and logo-in-search-results. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "drovex",
+        "url": "https://SITE_URL/",
+        "logo": "https://SITE_URL/logo-light.jpg",
+        "description": "Engineering team building enterprise web platforms, native desktop software and Telegram automation.",
+        "knowsLanguage": ["en", "ar"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Content search engines and social-media link previews see even before
+         (or without) JavaScript runs — this is a client-rendered app, so this
+         noscript block is what a non-JS crawler indexes. Keep it in sync with
+         the hero copy in src/i18n/translations.js if that copy changes. -->
+    <noscript>
+      <main style="max-width: 720px; margin: 60px auto; padding: 0 24px; font-family: sans-serif; line-height: 1.6">
+        <h1>drovex — Architecting Tomorrow's Digital Supremacy</h1>
+        <p>
+          drovex is an elite engineering team building web platforms, native desktop software and automation
+          ecosystems for ambitious companies. Enterprise web architecture, native desktop applications, Telegram
+          bot automation, and custom corporate software pipelines — bilingual, in Arabic and English.
+        </p>
+        <p>Please enable JavaScript to view the full interactive site.</p>
+      </main>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

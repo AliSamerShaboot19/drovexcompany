@@ -1,0 +1,7 @@
+# Replace SITE_URL below once the domain is live (see index.html for the
+# same placeholder).
+User-agent: *
+Allow: /
+Disallow: /admin
+
+Sitemap: https://SITE_URL/sitemap.xml

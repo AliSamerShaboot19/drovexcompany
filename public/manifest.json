@@ -1,0 +1,13 @@
+{
+  "name": "drovex",
+  "short_name": "drovex",
+  "description": "Web, desktop and automation engineering.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "/favicon.png", "sizes": "64x64", "type": "image/png" },
+    { "src": "/logo-light-sm.jpg", "sizes": "160x160", "type": "image/jpeg" }
+  ]
+}
