@@ -52,12 +52,12 @@ export const translations = {
           skills: [],
         },
         {
-          name: 'Ali Chabout',
+          name: 'Ali Shaboot',
           role: 'Co-Founder & Full-Stack Developer',
           skills: ['PostgreSQL', 'React', 'Node.js', 'Express', 'TailwindCSS', 'TypeScript', 'MongoDB', 'JavaScript'],
         },
         {
-          name: 'Mohammad Junaid',
+          name: 'Mohammad Jneid',
           role: 'Co-Founder & Desktop/Bot Developer',
           skills: ['Telegram Bot Development', 'Full-Stack Desktop Applications', 'C#', 'ASP.NET', 'SQL Server'],
         },
@@ -205,7 +205,7 @@ export const translations = {
           skills: [],
         },
         {
-          name: 'علي شعبوط',
+          name: 'علي شبوط',
           role: 'شريك مؤسس ومطوّر Full-Stack',
           skills: ['PostgreSQL', 'React', 'Node.js', 'Express', 'TailwindCSS', 'TypeScript', 'MongoDB', 'JavaScript'],
         },
